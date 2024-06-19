@@ -58,19 +58,19 @@ In this section, we will guide you through testing all the endpoints using Postm
 
 2. **Import the collection into Postman:**
 
-   ![Import into Postman](/postman-collections/ReadmeImg/Import-into-Postman.png "Import into Postman")
+   ![Import into Postman](/postman-collections/ReadmeImg/Import-into-Postman.png 'Import into Postman')
 
    - Open Postman.
    - Click on File > Import.
    - Choose the 'nestjs-postgres-crud.postman_collection.json' file and import it.
 
-4. **View and test the collections:**
+3. **View and test the collections:**
 
-   ![Postman Collections](/postman-collections/ReadmeImg/Postman-Collections.png "Postman Collections")
+   ![Postman Collections](/postman-collections/ReadmeImg/Postman-Collections.png 'Postman Collections')
 
    Now you can see all the collections like in the picture. This includes all the details in headers and bodies that need to be included. You can view them, verify, send requests, and check if they work as expected. 📋✅
 
-5. **Detailed walkthrough of each request:**
+4. **Detailed walkthrough of each request:**
 
    **User Routes**
 
@@ -137,7 +137,10 @@ In this section, we will guide you through testing all the endpoints using Postm
 
    - **Note: Add the JWT token as an environment variable and select it for each step. Follow the image guide for the path.**
 
-   ![Add Token](postman-collections/ReadmeImg/Add-Token.png "Add Token")
+   ![Add Token](postman-collections/ReadmeImg/Add-Token.png 'Add Token')
+
+   - Ensure that each request related to posts uses the environment variable for the authorization token. This should be done similarly to how it's shown in the image below:
+     ![env](postman-collections/ReadmeImg/env-variable.png 'env')
 
    - **Create a Post:**
 
