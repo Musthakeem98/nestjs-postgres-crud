@@ -41,7 +41,8 @@ export class UserService {
     return this.userRepository.save(user);
   }
 
-  async remove(id: number): Promise<void> {
+  async remove(id: number): Promise<any> {
     await this.userRepository.delete(id);
+    return { message: 'Deleted successfully' };
   }
 }
