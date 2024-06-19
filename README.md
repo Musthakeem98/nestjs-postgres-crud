@@ -58,7 +58,7 @@ In this section, we will guide you through testing all the endpoints using Postm
 
 2. **Import the collection into Postman:**
 
-   ![Import into Postman](postman collections/Readme Img/Import-into-Postman.png "Import into Postman")
+   ![Import into Postman](/postman-collections/ReadmeImg/Import-into-Postman.png "Import into Postman")
 
    - Open Postman.
    - Click on File > Import.
@@ -66,7 +66,7 @@ In this section, we will guide you through testing all the endpoints using Postm
 
 4. **View and test the collections:**
 
-   ![Postman Collections](path_to_image_for_collections_view)
+   ![Postman Collections](/postman-collections/ReadmeImg/Postman-Collections.png "Postman Collections")
 
    Now you can see all the collections like in the picture. This includes all the details in headers and bodies that need to be included. You can view them, verify, send requests, and check if they work as expected. 📋✅
 
@@ -137,7 +137,7 @@ In this section, we will guide you through testing all the endpoints using Postm
 
    - **Note: Add the JWT token as an environment variable and select it for each step. Follow the image guide for the path.**
 
-   ![Add Token](path_to_image_for_import_steps)
+   ![Add Token](postman-collections/ReadmeImg/Add-Token.png "Add Token")
 
    - **Create a Post:**
 
