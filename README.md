@@ -46,7 +46,7 @@ Before running the project, ensure you have the following installed:
    ```
 7. **Verify server startup:**  
    Ensure no errors are displayed in the terminal. Upon successful startup, you should see a message like "Hello user, welcome" at localhost:3000.  
-   🔗 Click here to view [Here](http://localhost:3000/users)
+   🔗 Click here to view [Here](http://localhost:3000)
 
 🎉 You have successfully set up and run the NestJS PostgreSQL CRUD Operation Application. 🚀
 
@@ -145,7 +145,6 @@ In this section, we will guide you through testing all the endpoints using Postm
 
    - Ensure that each request related to posts uses the environment variable for the authorization token. This should be done similarly to how it's shown in the image below:
      ![env](postman-collections/ReadmeImg/env-variable.png 'env')
-
 
    - **Create a Post:**
 
