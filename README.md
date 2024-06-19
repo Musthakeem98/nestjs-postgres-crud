@@ -133,6 +133,8 @@ In this section, we will guide you through testing all the endpoints using Postm
 
      Logs in and returns a JWT token. 🔑
 
+     ***
+
    **Post Routes**
 
    - **Note: Add the JWT token as an environment variable and select it for each step. Follow the image guide for the path.**
@@ -214,3 +216,7 @@ In this section, we will guide you through testing all the endpoints using Postm
      ```
 
      Deletes the post with ID 1. Requires JWT token for authorization. ❌
+
+---
+
+**🌟 Thank you for using the NestJS PostgreSQL CRUD Operation Application! We hope this guide helps you get started smoothly. Happy coding and feel free to contribute or reach out if you have any questions! 🙌🚀**
