@@ -18,11 +18,11 @@ Before running the project, ensure you have the following installed:
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository_url>
+   git clone git@github.com:Musthakeem98/nestjs-postgres-crud.git
    ```
 2. **Navigate to the project folder:**
    ```bash
-   cd <folder_name>
+   cd nestjs-postgres-crud
    ```
 3. **Install dependencies:**
    ```bash
