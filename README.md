@@ -139,12 +139,13 @@ In this section, we will guide you through testing all the endpoints using Postm
 
    - **Note: Add the JWT token as an environment variable and select it for each step. Follow the image guide for the path.**
 
+   - Attempting to make a request without including the token will result in a **401 Unauthorized error**, indicating that authentication is required.
+
    ![Add Token](postman-collections/ReadmeImg/Add-Token.png 'Add Token')
 
    - Ensure that each request related to posts uses the environment variable for the authorization token. This should be done similarly to how it's shown in the image below:
      ![env](postman-collections/ReadmeImg/env-variable.png 'env')
 
-   - Attempting to make a request without including the token will result in a **401 Unauthorized error**, indicating that authentication is required.
 
    - **Create a Post:**
 
