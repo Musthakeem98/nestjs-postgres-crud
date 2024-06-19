@@ -46,7 +46,7 @@ Before running the project, ensure you have the following installed:
    ```
 7. **Verify server startup:**  
    Ensure no errors are displayed in the terminal. Upon successful startup, you should see a message like "Hello user, welcome" at localhost:3000.  
-   🔗 Click here to view localhost:3000
+   🔗 Click here to view [Here](http://localhost:3000/users)
 
 🎉 You have successfully set up and run the NestJS PostgreSQL CRUD Operation Application. 🚀
 
@@ -136,6 +136,8 @@ In this section, we will guide you through testing all the endpoints using Postm
    **Post Routes**
 
    - **Note: Add the JWT token as an environment variable and select it for each step. Follow the image guide for the path.**
+
+   ![Add Token](path_to_image_for_import_steps)
 
    - **Create a Post:**
 
