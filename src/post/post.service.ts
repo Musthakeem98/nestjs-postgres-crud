@@ -29,16 +29,13 @@ export class PostService {
   }
 
   async update(id: number, updatePostDto: CreatePostDto): Promise<Post> {
-    const existingPost = await this.postRepository.preload({
-      id: id,
-      ...updatePostDto,
-    });
-
-    if (!existingPost) {
+    const post = await this.postRepository.findOne({ where: { id } });
+    if (!post) {
       throw new NotFoundException(`Post with ID ${id} not found`);
     }
+    const updatedPost = this.postRepository.merge(post, updatePostDto);
 
-    return this.postRepository.save(existingPost);
+    return this.postRepository.save(updatedPost);
   }
 
   async remove(id: number): Promise<{ message: string }> {
