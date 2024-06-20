@@ -42,7 +42,7 @@ export class PostController {
   }
 
   @Delete(':id')
-  async remove(@Param('id') id: number): Promise<void> {
+  async remove(@Param('id') id: number): Promise<any> {
     return this.postService.remove(id);
   }
 }
