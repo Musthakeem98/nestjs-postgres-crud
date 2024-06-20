@@ -94,17 +94,10 @@ In this section, we will guide you through testing all the endpoints using Postm
      URL: GET http://localhost:3000/users
      Fetches all users from the database. 📊
 
-   - **Get a User by ID or Email**
+   - **Get a User by ID:**
 
-     1. Fetches a user with a specific ID.
-
-        - **URL:** `GET http://localhost:3000/users/:id`
-        - **Example:** Fetches a user with ID 1. 🔍
-
-     2. Fetches a user with a specific email address.
-
-        - **URL:** `GET http://localhost:3000/users/email/:email`
-        - **Example:** Fetches a user with email `ahamed@example.com`. 🔍
+     URL: GET http://localhost:3000/users/1
+     Fetches a user with ID 1. 🔍
 
    - **Update a User:**
 
