@@ -164,7 +164,8 @@ In this section, we will guide you through testing all the endpoints using Postm
      }
      ```
 
-     Creates a new post. Requires JWT token for authorization. 📝
+     Creates a new post.  
+     Requires JWT token for authorization. 📝
 
    - **Get All Posts:**
 
@@ -175,7 +176,8 @@ In this section, we will guide you through testing all the endpoints using Postm
      Authorization: Bearer {{jwt_token}}
      ```
 
-     Fetches all posts. Requires JWT token for authorization. 📜
+     Fetches all posts.  
+     Requires JWT token for authorization. 📜
 
    - **Get a Post by ID:**
 
@@ -186,7 +188,8 @@ In this section, we will guide you through testing all the endpoints using Postm
      Authorization: Bearer {{jwt_token}}
      ```
 
-     Fetches a post with ID 1. Requires JWT token for authorization. 🔍
+     Fetches a post with ID 1.  
+     Requires JWT token for authorization. 🔍
 
    - **Update a Post:**
 
@@ -206,7 +209,8 @@ In this section, we will guide you through testing all the endpoints using Postm
      }
      ```
 
-     Updates the post with ID 1. Requires JWT token for authorization. 🔄
+     Updates the post with ID 1.  
+     SRequires JWT token for authorization. 🔄
 
    - **Delete a Post:**
 
@@ -217,7 +221,8 @@ In this section, we will guide you through testing all the endpoints using Postm
      Authorization: Bearer {{jwt_token}}
      ```
 
-     Deletes the post with ID 1. Requires JWT token for authorization. ❌
+     Deletes the post with ID 1.  
+     Requires JWT token for authorization. ❌
 
 ---
 
