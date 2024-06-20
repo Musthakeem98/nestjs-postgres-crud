@@ -62,7 +62,7 @@ In this section, we will guide you through testing all the endpoints using Postm
 
    - Open Postman.
    - Click on File > Import.
-   - Choose the 'nestjs-postgres-crud.postman_collection.json' file and import it.
+   - Choose the **'nestjs-postgres-crud.postman_collection.json'** file and import it.
 
 3. **View and test the collections:**
 
