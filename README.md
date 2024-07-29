@@ -2,7 +2,7 @@
 
 🚀 Welcome to the NestJS PostgreSQL CRUD Operation Application! This project demonstrates basic CRUD operations using NestJS and PostgreSQL.
 
-## Prerequisites
+## Prerequisites 
 
 Before running the project, ensure you have the following installed:
 
@@ -220,7 +220,7 @@ In this section, we will guide you through testing all the endpoints using Postm
      ```
      Authorization: Bearer {{jwt_token}}
      ```
-
+ 
      Deletes the post with ID 1.  
      Requires JWT token for authorization. ❌
 
