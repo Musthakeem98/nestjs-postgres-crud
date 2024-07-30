@@ -223,6 +223,7 @@ In this section, we will guide you through testing all the endpoints using Postm
  
      Deletes the post with ID 1.  
      Requires JWT token for authorization. ❌
+     
 
 ---
 
